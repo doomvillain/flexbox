@@ -1,0 +1,72 @@
+@media(min-width:468px) {
+    .landscape-container {
+        background-color: blue;
+
+    
+    }
+
+    .areas-container {
+        background-color: lightblue;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+  
+
+
+}
+
+
+.landscape-container div, .areas-container div {
+  
+    border: 1px #ccc solid;
+    padding: 10px;
+}
+
+.music-box {
+    flex: 1;
+   
+}
+
+.graff-box {
+    flex: 1;
+   
+}
+
+.fashion-box {
+    flex: 1;
+    
+
+
+}
+.header-container{
+    justify-content: space-between;
+    display: flex ;
+    background-color: red; 
+    height: 100px;
+  
+}
+
+
+
+
+.footer-container{
+    background-color: aqua;
+    height: 50px;
+
+}
+
+.logo-box {
+    flex: 1;
+    background-color: brown;
+
+}
+
+.title-box{
+    flex: 3;
+    background-color: darkblue;
+}
+
+
+  
