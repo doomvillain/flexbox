@@ -1,10 +1,16 @@
 @media(min-width:468px) {
     .landscape-container {
-        background-color: blue;
+        background-color: white;
+        display: flex 1;
+        
+       }
 
     
-    }
+    
+    
 
+
+        
     .areas-container {
         background-color: lightblue;
         display: flex;
@@ -17,6 +23,10 @@
 
 }
 
+.landscape-box-1 img {
+     width: 100%;
+   
+}
 
 .landscape-container div, .areas-container div {
   
@@ -61,12 +71,16 @@
 .logo-box {
     flex: 1;
     background-color: brown;
+    
 
 }
 
+
+ 
+
 .title-box{
     flex: 3;
-    background-color: darkblue;
+    background-color: rgb(158, 185, 243);
 }
 
 .body-container{
